@@ -8,7 +8,7 @@ import os
 BASE = os.path.dirname(os.path.abspath(__file__))
 
 def img(nome):
-    return os.path.join(BASE, nome)
+    return os.path.join(BASE, 'Img', nome)
 
 def localizar_imagem(nome_imagem, confianca=0.8, grayscale=False):
     try:
